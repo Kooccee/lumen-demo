@@ -44,12 +44,9 @@ return [
             'days' => 7,
         ],
 
-        'stderr' => [
-            'driver' => 'monolog',
-            'handler' => StreamHandler::class,
-            'with' => [
-                'stream' => 'php://stderr',
-            ]
+        'applogs' => [
+            'driver' => 'fluent',
+            'level' => 'info',
         ],
 
         'errorlog' => [

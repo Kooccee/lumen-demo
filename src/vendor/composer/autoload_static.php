@@ -10,8 +10,8 @@ class ComposerStaticInit059badfa06af693bcbe433d16211118e
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         'bee9632da3ca00a99623b9c35d0c4f8b' => __DIR__ . '/..' . '/laravel/lumen-framework/src/helpers.php',
     );
 
@@ -19,6 +19,10 @@ class ComposerStaticInit059badfa06af693bcbe433d16211118e
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'Y' => 
+        array (
+            'Ytake\\LaravelFluent\\' => 20,
         ),
         'W' => 
         array (
@@ -79,6 +83,7 @@ class ComposerStaticInit059badfa06af693bcbe433d16211118e
         ),
         'F' => 
         array (
+            'Fluent\\Logger\\' => 14,
             'FastRoute\\' => 10,
             'Faker\\' => 6,
         ),
@@ -103,8 +108,12 @@ class ComposerStaticInit059badfa06af693bcbe433d16211118e
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'Ytake\\LaravelFluent\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ytake/laravel-fluent-logger/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -261,6 +270,10 @@ class ComposerStaticInit059badfa06af693bcbe433d16211118e
         'Illuminate\\Auth\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/auth',
+        ),
+        'Fluent\\Logger\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fluent/logger/src',
         ),
         'FastRoute\\' => 
         array (
@@ -848,6 +861,12 @@ class ComposerStaticInit059badfa06af693bcbe433d16211118e
         'FastRoute\\RouteCollector' => __DIR__ . '/..' . '/nikic/fast-route/src/RouteCollector.php',
         'FastRoute\\RouteParser' => __DIR__ . '/..' . '/nikic/fast-route/src/RouteParser.php',
         'FastRoute\\RouteParser\\Std' => __DIR__ . '/..' . '/nikic/fast-route/src/RouteParser/Std.php',
+        'Fluent\\Logger\\Entity' => __DIR__ . '/..' . '/fluent/logger/src/Entity.php',
+        'Fluent\\Logger\\Exception' => __DIR__ . '/..' . '/fluent/logger/src/Exception.php',
+        'Fluent\\Logger\\FluentLogger' => __DIR__ . '/..' . '/fluent/logger/src/FluentLogger.php',
+        'Fluent\\Logger\\JsonPacker' => __DIR__ . '/..' . '/fluent/logger/src/JsonPacker.php',
+        'Fluent\\Logger\\LoggerInterface' => __DIR__ . '/..' . '/fluent/logger/src/LoggerInterface.php',
+        'Fluent\\Logger\\PackerInterface' => __DIR__ . '/..' . '/fluent/logger/src/PackerInterface.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -2730,6 +2749,11 @@ class ComposerStaticInit059badfa06af693bcbe433d16211118e
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
+        'Ytake\\LaravelFluent\\FluentHandler' => __DIR__ . '/..' . '/ytake/laravel-fluent-logger/src/FluentHandler.php',
+        'Ytake\\LaravelFluent\\FluentLogManager' => __DIR__ . '/..' . '/ytake/laravel-fluent-logger/src/FluentLogManager.php',
+        'Ytake\\LaravelFluent\\LogServiceProvider' => __DIR__ . '/..' . '/ytake/laravel-fluent-logger/src/LogServiceProvider.php',
+        'Ytake\\LaravelFluent\\LoggableServiceProvider' => __DIR__ . '/..' . '/ytake/laravel-fluent-logger/src/LoggableServiceProvider.php',
+        'Ytake\\LaravelFluent\\LumenLogServiceProvider' => __DIR__ . '/..' . '/ytake/laravel-fluent-logger/src/LumenLogServiceProvider.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
